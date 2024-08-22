@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maintain{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    user-select: none;
+    background: liner-gradient(to left,gray,rgb(71, 66, 66));
+}
+
+.fmaintain{
+    width: 1272px;
+    margin: 0;
+    padding: 0;
+}
+
+.pmaintain{
+    width: 100%;
+    float: left;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+}
+
+.navbar a {
+    position: relative;
+    left: 85vh;
+    top: 7px;
+    color: cornflowerblue;
+}
+
+.navbar h1{
+    margin-left: 30px;
+    margin-top: 7px;
+    color: cornflowerblue;
+}
+
+#contacts{
+    position: relative;
+    left: 68vh;
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: 600;
+    top: 13px;
+    font-size: 20px;
+}
+
+.boxxs{
+    margin: 30px;
+}
+
+.updates{
+    margin: 50px;
+    margin-top: 70px;
+}
+
+.boxxs h4{
+    color: green;
+    margin-left: 30px;
+}
+
+.boxxs h2{
+    color: black;
+    font-weight: 800;
+    text-decoration: double;
+}
+
+.boxxs h3{
+    margin-left: 10px;
+    color: red;
+    font-weight: 800;
+}
+
+#introo{
+    color: black;
+    font-weight: 600;
+
+}

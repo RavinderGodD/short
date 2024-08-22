@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:opsz@6..96&family=Merriweather:ital,wght@0,300;1,300&display=swap');
+
+
+body{
+    background-color: rgb(41, 39, 39);
+    user-select: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.hmain{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: rgb(48, 20, 4);
+}
+
+.fmain{
+    width: 4500px;
+    margin: 0;
+    padding: 0;
+}
+
+.pmain{
+    width: 100%;
+    float: left;
+}
+
+nav{
+    font-family: 'Ububtu',sans-serif;
+    user-select: none;
+
+}
+
+nav ul{
+    display:flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+    left: 88vh;
+}
+
+.Brand img{
+    width: 49px;
+    padding: 0 8px;
+    border-radius: 20px;
+}
+
+.Brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    user-select: none;
+}
+
+.Brand a{
+    left: -20px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 86%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bai.jpg');
+    background-size: cover;
+    user-select: none;
+    background-repeat: no-repeat;
+}
+
+
+.punjabisinger{
+    min-height: 20vh;
+    margin: 20px 50px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    font-size: 10px;
+    position: relative;
+    user-select: none;
+}
+
+.sidhulink{
+    padding-top: 85px;
+    margin-left: -142px;
+    
+}
+
+.imgbackround{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 145px;
+    height: 192px;
+    display: flex;
+    
+}
+
+.imgbackround a{
+    position: relative;
+    left: 12px;
+}
+
+.imgbackround img{
+    height: 160px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.imgbackround p{
+    position: relative;
+    right: 130px;
+    top: 175px;
+    font-weight: 800;
+}
+
+.bottom{
+    position: sticky;
+    height: 140px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.icons{
+    position: relative;
+    top: 3vh;
+    
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 90vw;
+    margin-bottom: 0px;
+    position: relative;
+    top: 2vh;
+    cursor: pointer;
+}
+
+
+.songitemcontainer{
+    margin-top: 60px;
+}
+
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: rgb(46, 42, 42);
+    color: whitesmoke;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    user-select: none;
+}
+
+.songItem img{
+    width: 60px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 10px;
+}
+
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 100px;
+    bottom: 10vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.songlist #tops{
+    color: white;
+    text-decoration: none;
+    font: bolder;
+    position: relative;
+    left: 90vh;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.songItem i{
+    color: goldenrod;
+}
+
+
+
